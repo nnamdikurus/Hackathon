@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+
+body{
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-color: #bfc9d9;
+}
+
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin: 10px;
+
+}
+
+.circle-members{
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 250%;
+	border: 0px solid GREEN;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #80ab8c;
+}
+
+
+.members{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 15px;
+	font-size: 150%;
+	font-family: fantasy;
+	animation-name: bounce;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+
+}
+
+.contact-form{
+	font-weight: bold;
+	margin-bottom: 25px;
+	border-width: 30%;
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+.register{
+	text-align: center;
+	margin: 20px;
+	width: 90%;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 5px;
+
+}
+
+
+#personal{
+	font-size:30px;
+	margin-bottom: 40px;
+
+}
+
+#reg{
+	font-size: 50px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 0px solid #b35d6b;
+	border-radius: 20px;
+	background-color: #b35d6b;
+
+}
+
+#dob{
+
+	width: 150px;
+}
+.btn-submit{
+	margin-left: 750px;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 7px;
+	border: 0px;
+	border-radius: 10px;
+}
+
+
+input{
+	text-align: center;
+	font-style: italic;
+	width: 250px;
+	border: 2px solid grey;
+	border-radius: 7px;
+	height: 30px;
+	margin: 10px;
+	padding: 15px;
+	background-color: #f0ecdf;
+
+}
+
+select{
+	width: 200px;
+	border: 2px solid grey;
+	border-radius: 7px;
+	height: 30px;	
+	background-color: #f0ecdf;
+	font-style: italic;
+
+}
+
+option{
+	text-align: center;
+	font-size: 15px;
+}
+
+
+@keyframes bounce{
+	from{
+		color: black;
+		opacity: 0.7;
+	}
+
+	to{
+		color: #28302a;
+		opacity: 1;
+	}
+}
+
+
+
+.response{
+	font-size: 50px;
+	text-align: center;
+	border: 3px solid red;
+	background-color: red;
+	font-weight: bold;
+}
+
+
+
+@media(max-width: 750px){
+	.response{
+		background:blue		
+	}
+
+	
+}
+
+/*@media(min-width: 320px) and (max-width: 480px){
+	.response{
+		background: green;
+	}
+}
+
+
+@media(min-width: 481px) and (max-width: 768px){
+	.response{
+		background-color: blue;
+
+	}
+	.btn-submit{
+		margin-left: 300px;
+	}
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+	.response{
+		background: brown;
+	}
+	.btn-submit{
+		margin-left: 420px;
+	}
+}
+
+
+@media(min-width: 1025px) and (max-width: 1200px){
+	.response{
+		background: purple;
+	}
+	.btn-submit{
+		margin-left: 500px;
+	}
+}
+
+
+@media(min-width: 1201px){
+	.response{
+		background: yellow;
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
